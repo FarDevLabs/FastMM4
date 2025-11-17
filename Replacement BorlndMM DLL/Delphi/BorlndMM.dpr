@@ -40,7 +40,9 @@ Change log:
   Version 1.05 (23 February 2006):
   - Added some exports to allow access to the extended FullDebugMode
     functionality in FastMM.
-
+  Version 1.06 (17 November 2025):
+  - Added private module to allow plugings to the memory mananger
+    
 *For this replacement borlndmm.dll to work together with Delphi 2005, you will
  need to apply the unofficial patch for QC#14007. To compile a replacement
  borlndmm.dll for use with the Delphi IDE the "NeverUninstall" option must be
@@ -74,7 +76,8 @@ library BorlndMM;
 {$ifndef UseRTLMM}
 uses
   FastMM4 in 'FastMM4.pas',
-  FastMM4Messages in 'FastMM4Messages.pas';
+  FastMM4Messages in 'FastMM4Messages.pas',
+  Plugins in 'Plugins.pas';
 
 {$endif}
 
@@ -180,3 +183,4 @@ exports
 begin
   IsMultiThread := True;
 end.
+
