@@ -123,3 +123,18 @@ http://cc.embarcadero.com/item.aspx?id=23618
 
 Installing these patches together with the replacement borlndmm.dll should provide you with a faster and more stable Delphi 2005 IDE.
 
+
+FastMM4 BorlndMM Fork
+---------------------
+
+This fork adds the ability to build FastMM with a plugin system by using unit (`Plugins.pas`) which is **not** part of FastMM4 and is **not** covered by MPL 1.1 or LGPL 2.1.  
+
+
+Additional Notes (Fork Author)
+------------------------------
+
+- My modifications are limited to project files (e.g., `.bpr`) and optional wrapper units.  
+- Proprietary units referenced in the project are **not included** in this repository.  
+- The DLL built from this fork remains a drop‑in replacement for Borland’s `borlndmm.dll`.  
+
+
