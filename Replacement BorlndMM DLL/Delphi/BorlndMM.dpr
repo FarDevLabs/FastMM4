@@ -1,6 +1,6 @@
 {
 
-Fast Memory Manager: Replacement BorlndMM.DLL 1.05
+Fast Memory Manager: Replacement BorlndMM.DLL 1.06
 
 Description:
  A replacement borlndmm.dll using FastMM instead of the RTL MM. This DLL may be
@@ -183,4 +183,5 @@ exports
 begin
   IsMultiThread := True;
 end.
+
 
