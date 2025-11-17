@@ -6,4 +6,4 @@ Fast Memory Manager with Plugins
 This repository contains:
 - The original FastMM4 source
 - A modified project file (`borlndmm.bpr`) that references an additional unit.
-- The compiled `borlndmm.dll` binary (optional).
+- The compiled `borlndmm.dll` binary.
