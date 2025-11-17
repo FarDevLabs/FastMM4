@@ -41,7 +41,7 @@ Change log:
   - Added some exports to allow access to the extended FullDebugMode
     functionality in FastMM.
   Version 1.06 (17 November 2025):
-  - Added private module to allow plugings to the memory mananger
+  - Added private module to allow plugins to the memory mananger
     
 *For this replacement borlndmm.dll to work together with Delphi 2005, you will
  need to apply the unofficial patch for QC#14007. To compile a replacement
@@ -183,5 +183,6 @@ exports
 begin
   IsMultiThread := True;
 end.
+
 
 
